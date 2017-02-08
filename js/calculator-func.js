@@ -1,166 +1,175 @@
 // Calculator Function //
 
-var number = 2;
+var oldNumber = 0;
+var number = 0;
+var sum = 0;
+
+function oldNumber() {
+    var 
+}
 
 // Numbers //
 
 function input0() {
-    var zero = document.getElementById("button0").value;
-    var number = (parseInt(zero));
-    console.log(parseInt(zero));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button0").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var zero = document.getElementById("button0").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + zero;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input1() {
-    var one = document.getElementById("button1").value;
-    var number = (parseInt(one));
-    console.log(parseInt(one));
-    document.write(number);
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button1").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var one = document.getElementById("button1").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + one;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input2() {
-    var two = document.getElementById("button2").value;
-    var number = (parseInt(two));
-    console.log(parseInt(two));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button2").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var two = document.getElementById("button2").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + two;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input3() {
-    var three = document.getElementById("button3").value;
-    var number = (parseInt(three));
-    console.log(parseInt(three));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button3").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var three = document.getElementById("button3").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + three;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input4() {
-    var four = document.getElementById("button4").value;
-    var number = (parseInt(four));
-    console.log(parseInt(four));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button4").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var four = document.getElementById("button4").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + four;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input5() {
-    var five = document.getElementById("button5").value;
-    var number = (parseInt(five));
-    console.log(parseInt(five));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button5").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var five = document.getElementById("button5").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + five;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input6() {
-    var six = document.getElementById("button6").value;
-    var number = (parseInt(six));
-    console.log(parseInt(six));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button6").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var six = document.getElementById("button6").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + six;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input7() {
-    var seven = document.getElementById("button7").value;
-    var number = (parseInt(seven));
-    console.log(parseInt(seven));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button7").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var seven = document.getElementById("button7").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + seven;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 function input8() {
-    var eight = document.getElementById("button8").value;
-    var number = (parseInt(eight));
-    console.log(parseInt(eight));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button8").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var eight = document.getElementById("button8").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + eight;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
+
 }
 
 function input9() {
-    var nine = document.getElementById("button9").value;
-    var number = (parseInt(nine));
-    console.log(parseInt(nine));
-    document.getElementById("placeholder").innerHTML = number;
-    if (document.getElementById("placeholder").innerHTML === 0) {
+    if (document.getElementById("placeholder").innerHTML === "0") {
         document.getElementById("placeholder").innerHTML = "";
     }
-    var z = document.getElementById("placeholder").innerHTML;
-    var x = document.getElementById("button9").value;
-    document.getElementById("placeholder").innerHTML = parseInt(z + x);
-    var number = parseInt(z + x);
+    var nine = document.getElementById("button9").value;
+    var number = document.getElementById("placeholder").innerHTML;
+    var number = number + nine;
+    document.getElementById("placeholder").innerHTML = parseInt(number);
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("****************");
 }
 
 
 // Functions //
 
 function inputAC() {
-    var nine = document.getElementById("button9").value;
-    console.log(parseInt(nine));
+    var number = 0;
+    console.log(parseInt(number));
+    document.getElementById("placeholder").innerHTML = number;
 }
 
 function inputPlus() {
-    var zero = document.getElementById("button0").value;
-    console.log(0);
+    var oldNumber = number;
+    var sum = parseInt(oldNumber) + parseInt(number);
+    document.getElementById("placeholder").innerHTML = sum;
+    console.log("Old Number" + " = ");
+    console.log(parseInt(oldNumber));
+    console.log("Current Number" + " = ");
+    console.log(parseInt(number));
+    console.log("Sum" + " = ");
+    console.log(parseInt(sum));
+    console.log("****************");
+    document.getElementById("placeholder").innerHTML = 0;
 }
 
-function input() {
-    var x = document.getElementById("button").value;
-    console.log(x);
+function inputEquals() {
+    document.getElementById("placeholder").innerHTML = sum;
+    console.log("Old Number" + " = " + oldNumber);
+    console.log("Current Number" + " = " + number);
+    console.log("Sum" + " = " + sum);
+    console.log("****************");
 }
 
 
