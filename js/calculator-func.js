@@ -4,10 +4,6 @@ var oldNumber = 0;
 var number = 0;
 var sum = 0;
 
-function oldNumber() {
-    var 
-}
-
 // Numbers //
 
 function input0() {
