@@ -6,16 +6,16 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <title>Calculator</title>
 	    <link rel="stylesheet" href="css/style.css">
-	    <script src="js/calculator-func-new.js"></script>
+	    <script src="js/calculator-func.js"></script>
 	</head>
 	<body>
 		<div class="calculator-container">
-			<div class="display">
-				<p id="placeholder">0</p>
+			<div class="display" id="placeholder"> 
+				0
 			</div>
 			<div>
 				<input onclick="inputAC()" id="button" value="AC">
-				<input onclick="input()" id="button" value="+/-">
+				<input onclick="inputNegative()" id="button" value="+/-">
 				<input onclick="inputPercent()" id="button" value="%">
 				<input onclick="inputDivide()" id="button" value="&divide;">
 				<input onclick="input7()" id="button7" class="number" value="7">
