@@ -15,110 +15,110 @@ function input0() {
     input.push(0);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input1() {
 	input.push(1);
 	display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input2() {
     input.push(2);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input3() {
     input.push(3);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input4() {
     input.push(4);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input5() {
     input.push(5);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input6() {
     input.push(6);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input7() {
     input.push(7);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input8() {
     input.push(8);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function input9() {
     input.push(9);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputDecimal() {
@@ -131,11 +131,11 @@ function inputDecimal() {
         input.push(".");
     }
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 
@@ -149,20 +149,20 @@ function inputAC() {
     previousNumber = 0;
     total = 0;
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputNegative() {
     input.push("-");
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputPercent() {
@@ -175,11 +175,11 @@ function inputPercent() {
     display = total;
     input = [];
     document.getElementById("placeholder").innerHTML = display;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputPlus() {
@@ -188,11 +188,11 @@ function inputPlus() {
     sum.push(display);
     sum.push("+");
     display = 0;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputMinus() {
@@ -200,11 +200,11 @@ function inputMinus() {
     sum.push(display);
     sum.push("-");
     display = 0;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputMultiply() {
@@ -212,11 +212,11 @@ function inputMultiply() {
     sum.push(display);
     sum.push("*");
     display = 0;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputDivide() {
@@ -224,11 +224,11 @@ function inputDivide() {
     sum.push(display);
     sum.push("/");
     display = 0;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
 }
 
 function inputEquals() {
@@ -239,11 +239,11 @@ function inputEquals() {
     input = [];
     previousNumber = 0;
     document.getElementById("placeholder").innerHTML = total;
-    console.log("input = " + input);
-    console.log("display = " + display);
-    console.log("sum = " + sum);
-    console.log("total = " + total);
-    console.log("********************");
+    // console.log("input = " + input);
+    // console.log("display = " + display);
+    // console.log("sum = " + sum);
+    // console.log("total = " + total);
+    // console.log("********************");
     total = 0;
 }
 
