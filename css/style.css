@@ -23,14 +23,9 @@
 
 .calculator-container {
 	background-color: #000;
-	padding: 50px;
-	width: 50%;
-	margin: 100px auto;
-	border-radius: 10px;
-	border-width: 0 5px 5px 0;
-	border-style: solid;
-	border-color: #aaa;
-	max-width: 400px;
+	padding: 50px 5%;
+	width: 90%;
+	margin: 0;
 }
 .calculator-container:after {
   content: "";
@@ -51,12 +46,12 @@
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-input {
-	width: 21%;
-	margin: 30px 3% 0 0;
+button {
+	width: 22%;
+	margin: 30px 4% 0 0;
 	border-radius: 5px;
 	height: 60px;
-	border-width: 0 5px 5px 0;
+	border-width: 0;
 	border-style: solid;
 	border-color: #555;
 	padding: 0;
@@ -68,10 +63,10 @@ input {
 	display: block;
 	float: left;
 }
-input:nth-child(4n) {
+button:nth-child(4n) {
 	margin-right: 0%;
 }
-input:last-child {
+button:last-child {
 	margin-right: 0%;
 }
 .number {
@@ -80,5 +75,5 @@ input:last-child {
 	border-color: #ff6000;
 }
 .double {
-	width: 47%;
+	width: 48%;
 }
