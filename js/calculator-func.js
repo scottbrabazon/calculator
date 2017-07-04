@@ -3,15 +3,15 @@
 
 // Variables //
 
-var input = [];
-var sum = [];
-var display = 0;
-var total = 0;
+let input = [];
+let sum = [];
+let display = 0;
+let total = 0;
 
 
 // Numbers //
 
-function input0() {
+const input0 = () => {
     input.push(0);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -22,7 +22,7 @@ function input0() {
     // console.log("********************");
 }
 
-function input1() {
+const input1 = () => {
 	input.push(1);
 	display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -33,7 +33,7 @@ function input1() {
     // console.log("********************");
 }
 
-function input2() {
+const input2 = () => {
     input.push(2);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -44,7 +44,7 @@ function input2() {
     // console.log("********************");
 }
 
-function input3() {
+const input3 = () => {
     input.push(3);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -55,7 +55,7 @@ function input3() {
     // console.log("********************");
 }
 
-function input4() {
+const input4 = () => {
     input.push(4);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -66,7 +66,7 @@ function input4() {
     // console.log("********************");
 }
 
-function input5() {
+const input5 = () => {
     input.push(5);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -77,7 +77,7 @@ function input5() {
     // console.log("********************");
 }
 
-function input6() {
+const input6 = () => {
     input.push(6);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -88,7 +88,7 @@ function input6() {
     // console.log("********************");
 }
 
-function input7() {
+const input7 = () => {
     input.push(7);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -99,7 +99,7 @@ function input7() {
     // console.log("********************");
 }
 
-function input8() {
+const input8 = () => {
     input.push(8);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -110,7 +110,7 @@ function input8() {
     // console.log("********************");
 }
 
-function input9() {
+const input9 = () => {
     input.push(9);
     display = input.join("");
     document.getElementById("placeholder").innerHTML = display;
@@ -121,7 +121,7 @@ function input9() {
     // console.log("********************");
 }
 
-function inputDecimal() {
+const inputDecimal = () => {
     if (input.includes('.'))
     {
         input.push("");
@@ -141,7 +141,7 @@ function inputDecimal() {
 
 // Functions //
 
-function inputAC() {
+const inputAC = () => {
     input = [];
     oldNumber = 0;
     sum = [];
@@ -156,7 +156,7 @@ function inputAC() {
     // console.log("********************");
 }
 
-function inputNegative() {
+const inputNegative = () => {
     input.push("-");
     // console.log("input = " + input);
     // console.log("display = " + display);
@@ -165,7 +165,7 @@ function inputNegative() {
     // console.log("********************");
 }
 
-function inputPercent() {
+const inputPercent = () => {
     sum.push(display);
     total = eval(sum.join(""));
     sum = [];
@@ -182,7 +182,7 @@ function inputPercent() {
     // console.log("********************");
 }
 
-function inputPlus() {
+const inputPlus = () => {
     input.join("")
     input = [];
     sum.push(display);
@@ -195,7 +195,7 @@ function inputPlus() {
     // console.log("********************");
 }
 
-function inputMinus() {
+const inputMinus = () => {
     input = [];
     sum.push(display);
     sum.push("-");
@@ -207,7 +207,7 @@ function inputMinus() {
     // console.log("********************");
 }
 
-function inputMultiply() {
+const inputMultiply = () => {
     input = [];
     sum.push(display);
     sum.push("*");
@@ -219,7 +219,7 @@ function inputMultiply() {
     // console.log("********************");
 }
 
-function inputDivide() {
+const inputDivide = () => {
     input = [];
     sum.push(display);
     sum.push("/");
@@ -231,7 +231,7 @@ function inputDivide() {
     // console.log("********************");
 }
 
-function inputEquals() {
+const inputEquals = () => {
     sum.push(display);
     total = eval(sum.join(""));
     display = eval(sum.join(""));
